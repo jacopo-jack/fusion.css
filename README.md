@@ -14,3 +14,9 @@ E' un framework che vanta i seguenti punti di forza:
     5. Compatibilità: il framework è compatibile con tutti i principali browser web.
 
 In generale, il framework Fusion.css offre una soluzione semplice e leggera per lo sviluppo di pagine web reattive e personalizzabili, rendendolo adatto per progetti di varie dimensioni e complessità.
+
+### Come si installa
+Per installarlo copia ed incolla questo codice:
+
+    <link rel="stylesheet" href="https://github.com/jacopo-jack/fusion.css/blob/main/fusion.css" type="text/css">
+oppure scarica direttamente il repository ed inseriscilo nella tua pagina web sempre col metodo del link relativo.
