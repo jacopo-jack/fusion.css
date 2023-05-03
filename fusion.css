@@ -1,0 +1,142 @@
+
+.bigthree{font-size: 22px;}.theothers{font-size: 18px;}p{font-size: 21px;}
+.menu,.menulist{border: 2px solid;height: fit-content;width: fit-content;}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    
+  }
+  
+  nav ul li #navmenu {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li #navmenu:hover {
+    background-color: #555;
+    color: white;
+    
+  }
+  
+  @media screen and (max-height: 41.4em){
+    nav ul li #navmenu , nav ul li #navmenu:hover{
+    display: grid;  
+    grid-template-columns: 1fr;
+    }
+    
+
+}
+code,img,button,.button{
+    font-size:large;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    @media screen and (max-height: 41.4em) {
+        code,img{
+            margin-top: fit-content;
+            margin-left: fit-content;
+            margin-right: fit-content;
+            margin-top: fit-content;
+            margin-bottom: fit-content;
+            width: fit-content;
+            height: fit-content;
+        }
+        button,.button{
+            font-size: larger;
+        }
+    }
+@media screen  (max-width:89.6em){
+    code,img{
+        margin-top: fit-content;
+        margin-left: fit-content;
+        margin-right: fit-content;
+        margin-top: fit-content;
+        margin-bottom: fit-content;
+        width: fit-content;
+        height: fit-content;
+    }
+    button,.button{
+        font-size:larger;
+    }
+}
+}
+
+@media screen and (max-width: 82.0em) and (max-height: 73.75em),
+       screen and (max-width: 9.12em) and (max-height: 85.5em) {
+
+    code,img {
+        margin: auto;
+        width: max-content;
+        height: max-content;
+    }
+}
+
+
+/* la tabella ha lo stile predefinito qui sotto può diventare responsive con .responsive*/
+table,
+tbody {
+border: 2px solid black;
+text-align: center;
+display: block;
+}
+thead {
+color: gray;
+border: 2px;
+}
+
+td,
+th,
+tr {
+border: 0px solid black;
+text-align: center;
+display: block;
+}
+.responsive,
+.tdresponsive,
+.trresponsive {
+border: 2px solid black;
+text-align: center;
+display: grid;
+}
+
+/* i bottoni*/
+button {
+text-align: center;
+background-color: transparent;
+border-radius: 10px;
+}
+#graybutton {
+text-align: center;
+background-color: gray;
+color: black;
+}
+#bluebutton {
+text-align: center;
+background-color: blue;
+color: antiquewhite;
+}
+#blackbutton {
+text-align: center;
+background-color: black;
+color: antiquewhite;
+}
+/* bottoni con link */
+.button {
+font-size: large;
+text-decoration: none;
+text-align: center;
+background-color: transparent;
+border-radius: 10px;
+}
