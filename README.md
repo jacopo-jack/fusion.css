@@ -2,6 +2,7 @@
 Secondo tentativo di creare un framework css leggero e minimalist.
 ## Cos'è Fusion.css
 E' un framework che vanta i seguenti punti di forza:
+
     1.Lightweight: il framework è leggero e minimale, rendendolo facile da utilizzare e personalizzare.
 
     2.Responsive: il framework è progettato per essere reattivo e adattabile a diverse dimensioni di schermo.
