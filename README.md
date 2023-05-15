@@ -1,5 +1,5 @@
 # fusion.css
-Secondo tentativo di creare un framework css leggero e minimalist.
+Secondo tentativo di creare un framework css leggero e minimalista.
 ## Cos'è Fusion.css
 E' un framework che vanta i seguenti punti di forza:
 
@@ -21,7 +21,7 @@ Per installarlo copia ed incolla questo codice:
     <link rel="stylesheet" href="https://github.com/jacopo-jack/fusion.css/blob/main/fusion.css" type="text/css">
 oppure scarica direttamente il repository ed inseriscilo nella tua pagina web sempre col metodo del link relativo.
 
-### Funzionalità responsiv
+### Funzionalità responsive
 Con Fusion puoi creare tabelle con un layout a griglia e renderle responsive con le seguenti classi:
 
     1.'.responsive'
